@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		133652692529DB8E00DF94C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133652682529DB8E00DF94C3 /* AppDelegate.swift */; };
+		1336526B2529DB8E00DF94C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1336526A2529DB8E00DF94C3 /* SceneDelegate.swift */; };
+		1336526D2529DB8E00DF94C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1336526C2529DB8E00DF94C3 /* ContentView.swift */; };
+		1336526F2529DB9300DF94C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1336526E2529DB9300DF94C3 /* Assets.xcassets */; };
+		133652722529DB9300DF94C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 133652712529DB9300DF94C3 /* Preview Assets.xcassets */; };
+		133652752529DB9300DF94C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 133652732529DB9300DF94C3 /* LaunchScreen.storyboard */; };
+		133652802529DB9300DF94C3 /* CernMonitorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1336527F2529DB9300DF94C3 /* CernMonitorTests.swift */; };
+		1336528B2529DB9300DF94C3 /* CernMonitorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1336528A2529DB9300DF94C3 /* CernMonitorUITests.swift */; };
+		135CA3B02529E0570079577A /* Experiment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135CA3AF2529E0570079577A /* Experiment.swift */; };
+		135CA3B82529E4960079577A /* ExperimentDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135CA3B72529E4960079577A /* ExperimentDetail.swift */; };
+		135CA3C92529F5D30079577A /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 135CA3C82529F5D30079577A /* SDWebImageSwiftUI */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1336527C2529DB9300DF94C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1336525D2529DB8E00DF94C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 133652642529DB8E00DF94C3;
+			remoteInfo = CernMonitor;
+		};
+		133652872529DB9300DF94C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1336525D2529DB8E00DF94C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 133652642529DB8E00DF94C3;
+			remoteInfo = CernMonitor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		133652652529DB8E00DF94C3 /* CernMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CernMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		133652682529DB8E00DF94C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1336526A2529DB8E00DF94C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1336526C2529DB8E00DF94C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1336526E2529DB9300DF94C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		133652712529DB9300DF94C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		133652742529DB9300DF94C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		133652762529DB9300DF94C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1336527B2529DB9300DF94C3 /* CernMonitorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CernMonitorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1336527F2529DB9300DF94C3 /* CernMonitorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CernMonitorTests.swift; sourceTree = "<group>"; };
+		133652812529DB9300DF94C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		133652862529DB9300DF94C3 /* CernMonitorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CernMonitorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1336528A2529DB9300DF94C3 /* CernMonitorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CernMonitorUITests.swift; sourceTree = "<group>"; };
+		1336528C2529DB9300DF94C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		135CA3AF2529E0570079577A /* Experiment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Experiment.swift; sourceTree = "<group>"; };
+		135CA3B72529E4960079577A /* ExperimentDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ExperimentDetail.swift; path = ../ExperimentDetail.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		133652622529DB8E00DF94C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				135CA3C92529F5D30079577A /* SDWebImageSwiftUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		133652782529DB9300DF94C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		133652832529DB9300DF94C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1336525C2529DB8E00DF94C3 = {
+			isa = PBXGroup;
+			children = (
+				133652672529DB8E00DF94C3 /* CernMonitor */,
+				1336527E2529DB9300DF94C3 /* CernMonitorTests */,
+				133652892529DB9300DF94C3 /* CernMonitorUITests */,
+				133652662529DB8E00DF94C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		133652662529DB8E00DF94C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				133652652529DB8E00DF94C3 /* CernMonitor.app */,
+				1336527B2529DB9300DF94C3 /* CernMonitorTests.xctest */,
+				133652862529DB9300DF94C3 /* CernMonitorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		133652672529DB8E00DF94C3 /* CernMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				135CA3B72529E4960079577A /* ExperimentDetail.swift */,
+				133652682529DB8E00DF94C3 /* AppDelegate.swift */,
+				1336526A2529DB8E00DF94C3 /* SceneDelegate.swift */,
+				1336526C2529DB8E00DF94C3 /* ContentView.swift */,
+				1336526E2529DB9300DF94C3 /* Assets.xcassets */,
+				133652732529DB9300DF94C3 /* LaunchScreen.storyboard */,
+				133652762529DB9300DF94C3 /* Info.plist */,
+				133652702529DB9300DF94C3 /* Preview Content */,
+				135CA3AF2529E0570079577A /* Experiment.swift */,
+			);
+			path = CernMonitor;
+			sourceTree = "<group>";
+		};
+		133652702529DB9300DF94C3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				133652712529DB9300DF94C3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1336527E2529DB9300DF94C3 /* CernMonitorTests */ = {
+			isa = PBXGroup;
+			children = (
+				1336527F2529DB9300DF94C3 /* CernMonitorTests.swift */,
+				133652812529DB9300DF94C3 /* Info.plist */,
+			);
+			path = CernMonitorTests;
+			sourceTree = "<group>";
+		};
+		133652892529DB9300DF94C3 /* CernMonitorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1336528A2529DB9300DF94C3 /* CernMonitorUITests.swift */,
+				1336528C2529DB9300DF94C3 /* Info.plist */,
+			);
+			path = CernMonitorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		133652642529DB8E00DF94C3 /* CernMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1336528F2529DB9300DF94C3 /* Build configuration list for PBXNativeTarget "CernMonitor" */;
+			buildPhases = (
+				133652612529DB8E00DF94C3 /* Sources */,
+				133652622529DB8E00DF94C3 /* Frameworks */,
+				133652632529DB8E00DF94C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CernMonitor;
+			packageProductDependencies = (
+				135CA3C82529F5D30079577A /* SDWebImageSwiftUI */,
+			);
+			productName = CernMonitor;
+			productReference = 133652652529DB8E00DF94C3 /* CernMonitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1336527A2529DB9300DF94C3 /* CernMonitorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 133652922529DB9300DF94C3 /* Build configuration list for PBXNativeTarget "CernMonitorTests" */;
+			buildPhases = (
+				133652772529DB9300DF94C3 /* Sources */,
+				133652782529DB9300DF94C3 /* Frameworks */,
+				133652792529DB9300DF94C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1336527D2529DB9300DF94C3 /* PBXTargetDependency */,
+			);
+			name = CernMonitorTests;
+			productName = CernMonitorTests;
+			productReference = 1336527B2529DB9300DF94C3 /* CernMonitorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		133652852529DB9300DF94C3 /* CernMonitorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 133652952529DB9300DF94C3 /* Build configuration list for PBXNativeTarget "CernMonitorUITests" */;
+			buildPhases = (
+				133652822529DB9300DF94C3 /* Sources */,
+				133652832529DB9300DF94C3 /* Frameworks */,
+				133652842529DB9300DF94C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				133652882529DB9300DF94C3 /* PBXTargetDependency */,
+			);
+			name = CernMonitorUITests;
+			productName = CernMonitorUITests;
+			productReference = 133652862529DB9300DF94C3 /* CernMonitorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1336525D2529DB8E00DF94C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					133652642529DB8E00DF94C3 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					1336527A2529DB9300DF94C3 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 133652642529DB8E00DF94C3;
+					};
+					133652852529DB9300DF94C3 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 133652642529DB8E00DF94C3;
+					};
+				};
+			};
+			buildConfigurationList = 133652602529DB8E00DF94C3 /* Build configuration list for PBXProject "CernMonitor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1336525C2529DB8E00DF94C3;
+			packageReferences = (
+				135CA3C72529F5D30079577A /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
+			productRefGroup = 133652662529DB8E00DF94C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				133652642529DB8E00DF94C3 /* CernMonitor */,
+				1336527A2529DB9300DF94C3 /* CernMonitorTests */,
+				133652852529DB9300DF94C3 /* CernMonitorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		133652632529DB8E00DF94C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				133652752529DB9300DF94C3 /* LaunchScreen.storyboard in Resources */,
+				133652722529DB9300DF94C3 /* Preview Assets.xcassets in Resources */,
+				1336526F2529DB9300DF94C3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		133652792529DB9300DF94C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		133652842529DB9300DF94C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		133652612529DB8E00DF94C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				135CA3B82529E4960079577A /* ExperimentDetail.swift in Sources */,
+				135CA3B02529E0570079577A /* Experiment.swift in Sources */,
+				133652692529DB8E00DF94C3 /* AppDelegate.swift in Sources */,
+				1336526B2529DB8E00DF94C3 /* SceneDelegate.swift in Sources */,
+				1336526D2529DB8E00DF94C3 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		133652772529DB9300DF94C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				133652802529DB9300DF94C3 /* CernMonitorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		133652822529DB9300DF94C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1336528B2529DB9300DF94C3 /* CernMonitorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1336527D2529DB9300DF94C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 133652642529DB8E00DF94C3 /* CernMonitor */;
+			targetProxy = 1336527C2529DB9300DF94C3 /* PBXContainerItemProxy */;
+		};
+		133652882529DB9300DF94C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 133652642529DB8E00DF94C3 /* CernMonitor */;
+			targetProxy = 133652872529DB9300DF94C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		133652732529DB9300DF94C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				133652742529DB9300DF94C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1336528D2529DB9300DF94C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1336528E2529DB9300DF94C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		133652902529DB9300DF94C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CernMonitor/Preview Content\"";
+				DEVELOPMENT_TEAM = 2F9U55FZG7;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CernMonitor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = it.mattiarighetti.CernMonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		133652912529DB9300DF94C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CernMonitor/Preview Content\"";
+				DEVELOPMENT_TEAM = 2F9U55FZG7;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CernMonitor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = it.mattiarighetti.CernMonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		133652932529DB9300DF94C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2F9U55FZG7;
+				INFOPLIST_FILE = CernMonitorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = it.mattiarighetti.CernMonitorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CernMonitor.app/CernMonitor";
+			};
+			name = Debug;
+		};
+		133652942529DB9300DF94C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2F9U55FZG7;
+				INFOPLIST_FILE = CernMonitorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = it.mattiarighetti.CernMonitorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CernMonitor.app/CernMonitor";
+			};
+			name = Release;
+		};
+		133652962529DB9300DF94C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2F9U55FZG7;
+				INFOPLIST_FILE = CernMonitorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = it.mattiarighetti.CernMonitorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CernMonitor;
+			};
+			name = Debug;
+		};
+		133652972529DB9300DF94C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2F9U55FZG7;
+				INFOPLIST_FILE = CernMonitorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = it.mattiarighetti.CernMonitorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CernMonitor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		133652602529DB8E00DF94C3 /* Build configuration list for PBXProject "CernMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1336528D2529DB9300DF94C3 /* Debug */,
+				1336528E2529DB9300DF94C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1336528F2529DB9300DF94C3 /* Build configuration list for PBXNativeTarget "CernMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				133652902529DB9300DF94C3 /* Debug */,
+				133652912529DB9300DF94C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		133652922529DB9300DF94C3 /* Build configuration list for PBXNativeTarget "CernMonitorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				133652932529DB9300DF94C3 /* Debug */,
+				133652942529DB9300DF94C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		133652952529DB9300DF94C3 /* Build configuration list for PBXNativeTarget "CernMonitorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				133652962529DB9300DF94C3 /* Debug */,
+				133652972529DB9300DF94C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		135CA3C72529F5D30079577A /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		135CA3C82529F5D30079577A /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 135CA3C72529F5D30079577A /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1336525D2529DB8E00DF94C3 /* Project object */;
+}
