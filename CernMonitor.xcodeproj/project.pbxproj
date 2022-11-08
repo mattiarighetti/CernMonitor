@@ -18,6 +18,7 @@
 		135CA3B02529E0570079577A /* Experiment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135CA3AF2529E0570079577A /* Experiment.swift */; };
 		135CA3B82529E4960079577A /* ExperimentDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135CA3B72529E4960079577A /* ExperimentDetail.swift */; };
 		135CA3C92529F5D30079577A /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 135CA3C82529F5D30079577A /* SDWebImageSwiftUI */; };
+		13EAA82E291AF28600B0A371 /* ExperimentDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EAA82D291AF28600B0A371 /* ExperimentDetailViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		1336528C2529DB9300DF94C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		135CA3AF2529E0570079577A /* Experiment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Experiment.swift; sourceTree = "<group>"; };
 		135CA3B72529E4960079577A /* ExperimentDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ExperimentDetail.swift; path = ../ExperimentDetail.swift; sourceTree = "<group>"; };
+		13EAA82D291AF28600B0A371 /* ExperimentDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperimentDetailViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				133652762529DB9300DF94C3 /* Info.plist */,
 				133652702529DB9300DF94C3 /* Preview Content */,
 				135CA3AF2529E0570079577A /* Experiment.swift */,
+				13EAA82D291AF28600B0A371 /* ExperimentDetailViewModel.swift */,
 			);
 			path = CernMonitor;
 			sourceTree = "<group>";
@@ -284,6 +287,7 @@
 				135CA3B02529E0570079577A /* Experiment.swift in Sources */,
 				133652692529DB8E00DF94C3 /* AppDelegate.swift in Sources */,
 				1336526B2529DB8E00DF94C3 /* SceneDelegate.swift in Sources */,
+				13EAA82E291AF28600B0A371 /* ExperimentDetailViewModel.swift in Sources */,
 				1336526D2529DB8E00DF94C3 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

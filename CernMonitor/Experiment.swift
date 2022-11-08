@@ -24,9 +24,9 @@ struct Experiment: Identifiable {
     }
 }
 
-let cmsUrl = "https://cmspage1.web.cern.ch/cmspage1/data/"
-let lhcUrl = "https://lhcdashboard-images.web.cern.ch/lhcdashboard-images/images/lhc/prod/"
-let vistarUrl = "https://vistar-capture.web.cern.ch/vistar-capture/"
+let cmsUrl = "https://vistar-capture.s3.cern.ch/"
+let lhcUrl = "https://vistar-capture.s3.cern.ch/"
+let vistarUrl = "https://vistar-capture.s3.cern.ch/"
 
 let experimentData = [
     Experiment(name: "ADE", pngName: "ade", monitorType: "vistar"),
